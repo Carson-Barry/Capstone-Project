@@ -1,0 +1,20 @@
+/* Navbar Title (Logo) Font */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.Navbar-title {
+    text-align: left;
+    margin-top: 0.5em;
+    margin-bottom: 0.4em;
+    margin-left: 0.5em;
+    font-size: 2em;
+    font-family: 'Press Start 2P', sans-serif;
+}
+
+.Navbar-hr {
+    border: 1px dashed darkgray;
+}
+
+.Navbar-link {
+    text-decoration: none;
+    color: black;
+}
