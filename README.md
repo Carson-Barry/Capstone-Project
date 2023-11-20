@@ -14,7 +14,7 @@ These packages need to be installed with npm/npx to run this code.
 - Download the repository
 - Install the dependencies above in the repository using npm/npx
 - Create a file named "APIKey.js" in the "src" folder and set a variable, "key" equal to your API key (in string format)
-- Add the following line to the end of the file: "export default key;"
+- Add the following line to the end of the file (without the quotes): "export default key;"
 
 ## Starting the App
 
