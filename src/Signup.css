@@ -1,0 +1,53 @@
+/* Signup Font */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.Signup {
+    text-align: center;
+}
+
+.Signup-title {
+    color: white;
+    margin-top: 1em;
+    font-family: 'Press Start 2P', sans-serif;
+    text-shadow: -2px 2px 0px blue;
+    margin-top: 2em;
+    margin-bottom: 1.5em;
+}
+
+.Signup-form {
+    text-align: center;
+}
+
+.Signup-text {
+    display: block;
+    background-color: rgb(42, 35, 45);
+    height: 2em;
+    width: 15em;
+    font-size: 1.5em;
+    color: white;
+    padding-left: 0.5em;
+    font-family: sans-serif;
+    border: 5px solid rgb(226, 208, 227);;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0.5em;
+}
+
+.Signup-button {
+    margin-top: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 2.5em;
+    width: 14em;
+    font-size: 1.7em;
+    color: white;
+    border: 5px solid rgb(226, 208, 227);;
+    font-family: 'Press Start 2P', sans-serif;
+    background-color: blue;
+    text-shadow: -2px 2px 0px red;
+}
+
+.Signup-button:hover {
+    background-color: lightblue;
+}
