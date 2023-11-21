@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Navigate } from "react-router-dom";
 import "./Signup.css"
-import { signIn } from "./LoginAPI"
+import { signUp } from "./LoginAPI"
 import { setLogin, isSignedIn } from "./LocalStorageInterface";
 
 const Signup = () => {
@@ -29,7 +29,7 @@ const Signup = () => {
 
         if (formData.password !== "" && formData.email !== "" &&
             formData.firstName !== "" && formData.lastName !== "") {
-            const signedIn = await signIn(formData)
+            const signedIn = await signUp(formData)
             if (signedIn !== false) {
                 setLogin(signedIn)
                 window.location.href = "/";

@@ -1,11 +1,27 @@
 import React from "react";
 import "./Navbar.css";
+import { isSignedIn, setLogin } from "./LocalStorageInterface";
 
 const Navbar = () => {
     
+    const logOut = () => {
+        setLogin(null);
+        window.location.reload();
+    }
+
     return (
         <div className="Navbar">
-            <h1 className="Navbar-title"><a href="/" className="Navbar-link">PC.cool</a></h1>
+            <div className="Navbar-container">
+                <div className="Navbar-left">
+                    <h1 className="Navbar-title"><a href="/" className="Navbar-link">PC.cool</a></h1>
+                </div>
+                <div className="Navbar-right">
+                    {isSignedIn() ?
+                    <>
+                        <input type="button" className="Navbar-button" value="Log Out" onClick={logOut}></input>
+                    </> : null}
+                </div>
+            </div>
             <hr className="Navbar-hr"></hr>
         </div>
     )

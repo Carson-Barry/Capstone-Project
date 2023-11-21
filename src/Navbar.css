@@ -1,22 +1,53 @@
 /* Navbar Title (Logo) Font */
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
-.Navbar-title {
-    text-align: left;
+.Navbar {
     margin-top: 0.5em;
-    margin-bottom: 0.4em;
-    margin-left: 0.5em;
+}
+
+.Navbar-title {
     font-size: 2em;
     font-family: 'Press Start 2P', sans-serif;
     text-shadow: -3px 2px 0px blue;
     color: white;
-}
-
-.Navbar-hr {
-    border: 1px dashed darkgray;
+    display: inline;
 }
 
 .Navbar-link {
     text-decoration: none;
     color: inherit;
+}
+
+.Navbar-button {
+    display: inline;
+    height: 1.6em;
+    font-size: 1.5em;
+    font-family: 'Press Start 2P', sans-serif;
+    background-color: blue;
+    color: white;
+    text-shadow: -2px 1px 0px red;
+    border: 3px solid white;
+}
+
+.Navbar-button:hover {
+    background-color: lightblue;
+}
+
+.Navbar-container {
+    display: flex;
+    /* background-color: red; */
+}
+
+.Navbar-right {
+    position: absolute;
+    right: 1em;
+}
+
+.Navbar-left {
+    position: relative;
+    left: 1em;
+}
+
+.Navbar-hr {
+    border: 1px dashed darkgray;
 }
