@@ -16,8 +16,10 @@ const Home = () => {
             :
                 <div className="Home">
                     <h1 className="Home-welcome">Welcome to PC.cool!</h1>
-                    <Link className="Home-signup Home-button" to="/signup">Signup</Link>
-                    <Link className="Home-login Home-button" to="/login">Login</Link>
+                    <div className="Home-buttons">
+                        <Link className="Home-signup Home-button" to="/signup">Signup</Link>
+                        <Link className="Home-login Home-button" to="/login">Login</Link>
+                    </div>
                 </div>
             }
         </>

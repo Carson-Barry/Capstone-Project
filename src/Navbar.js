@@ -6,7 +6,11 @@ const Navbar = () => {
     
     const logOut = () => {
         setLogin(null);
-        window.location.reload();
+        window.location.href = "/"
+    }
+
+    const goToProfile = () => {
+        window.location.href = "/profile"
     }
 
     return (
@@ -18,6 +22,7 @@ const Navbar = () => {
                 <div className="Navbar-right">
                     {isSignedIn() ?
                     <>
+                        <input type="button" className="Navbar-button" value="Profile" onClick={goToProfile}></input>
                         <input type="button" className="Navbar-button" value="Log Out" onClick={logOut}></input>
                     </> : null}
                 </div>

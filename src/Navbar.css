@@ -27,6 +27,7 @@
     color: white;
     text-shadow: -2px 1px 0px red;
     border: 3px solid white;
+    margin-left: 10px;
 }
 
 .Navbar-button:hover {
@@ -35,17 +36,20 @@
 
 .Navbar-container {
     display: flex;
-    /* background-color: red; */
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .Navbar-right {
-    position: absolute;
-    right: 1em;
+    margin-right: 10px;
+    margin-left: auto;
+    order: 2;
 }
 
 .Navbar-left {
-    position: relative;
-    left: 1em;
+    margin-top: 5px;
+    margin-left: 10px;
+    order: 1;
 }
 
 .Navbar-hr {
