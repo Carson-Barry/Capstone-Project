@@ -35,7 +35,8 @@ export const getUserBuild = () => {
         {identifier: "ram", name: "Choose RAM", salePrice: null, url: null, image: x},
         {identifier: "psu", name: "Choose a Power Supply", salePrice: null, url: null, image: x},
         {identifier: "storage", name: "Choose a Storage Device", salePrice: null, url: null, image: x},
-        {identifier: "case", name: "Choose a Case", salePrice: null, url: null, image: x}
+        {identifier: "case", name: "Choose a Case", salePrice: null, url: null, image: x},
+        {identifier: "gpu", name: "Choose a GPU", salePrice: null, url: null, image: x}
     ]
 
     try {
