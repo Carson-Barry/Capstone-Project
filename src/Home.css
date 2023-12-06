@@ -3,11 +3,9 @@
 
 .Home-welcome {
     color: white;
-    margin-top: 1em;
     font-family: 'Press Start 2P', sans-serif;
     text-shadow: -2px 2px 0px red;
     margin-top: 2em;
-    margin-bottom: 5em;
 }
 
 .Home-button {
@@ -35,8 +33,13 @@
 }
 
 .Home-buttons {
+    margin-top: 5em;
     display: flex;
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
+}
+
+.Home-build-menu {
+    margin-top: 3em;
 }

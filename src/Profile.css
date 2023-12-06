@@ -1,0 +1,57 @@
+/* Title Font */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.Profile-title {
+    margin-top: 2em;
+    font-family: 'Press Start 2P', sans-serif;
+    text-shadow: -3px 2px 0px blue;
+}
+
+.Profile-form {
+    margin-top: 3em;
+    display: inline-block;
+}
+
+.Profile-text {
+    background-color: rgb(42, 35, 45);
+    height: 2em;
+    width: 15em;
+    font-size: 1.5em;
+    color: white;
+    padding-left: 0.5em;
+    font-family: sans-serif;
+    border: 5px solid rgb(226, 208, 227);;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0.5em;
+}
+
+.Profile-label {
+    font-family: 'Press Start 2P', sans-serif;
+    text-shadow: -3px 2px 0px blue;
+    font-size: 1.5em;
+    margin-right: 1em;
+}
+
+.Profile-button {
+    margin-top: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 2.5em;
+    width: 14em;
+    font-size: 1.7em;
+    color: white;
+    border: 5px solid rgb(226, 208, 227);;
+    font-family: 'Press Start 2P', sans-serif;
+    background-color: blue;
+    text-shadow: -2px 2px 0px red;
+}
+
+.Profile-formDiv {
+    text-align: right;
+}
+
+.Profile-button:hover {
+    background-color: lightblue;
+}
